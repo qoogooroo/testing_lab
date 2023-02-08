@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create your account</title>
+    <h1>Create An Account</h1>
+</head>
+
+<body>
+    <form action="" method="get" class="account_form">
+        <div class="account_form">
+          <label for="first_name">Frist name</label>
+          <input type="text" name="first_name" id="first_name" placeholder="First name" required>
+        </div>
+        <div class="account_form">
+          <label for="last_name">Last name</label>
+          <input type="text" name="last_name" id="last_name" placeholder="Last name" required>
+        </div>
+        <div class="account_form">
+            <label for="e-mail">E-mail</label>
+            <input type="email" name="e-mail" id="e-mail" placeholder="E-mail" required>
+        </div>
+        <div class="account_form">
+            <label for="user_name">User name</label>
+            <input type="text" name="user_name" id="user_name" placeholder="User name" required>
+        </div>
+        <div class="account_form">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" minlength="10" required>
+        </div>
+        <div class="account_form">
+            <label for="birth_date">Birth date</label>
+            <input type="date" name="birth_date" id="birth_date" placeholder="yyyy/mm/dd" required>
+        </div>
+        <div>
+            <label for="happy">How happy are you ?</label>
+            <input type="range" id="happy" name="happy" list="markers" value="30" required>
+            <datalist id="markers">
+             <option value="0"></option>
+             <option value="10"></option>
+             <option value="20"></option>
+             <option value="30"></option>
+             <option value="40"></option>
+             <option value="50"></option>
+             <option value="60"></option>
+             <option value="70"></option>
+             <option value="80"></option>
+             <option value="90"></option>
+             <option value="100"></option>
+            </datalist>
+        </div>
+        <div class="account_form">
+            <label for="color">What is your favorite color ?</label>
+            <input type="color" name="color" id="color" value="#f6b73c" required>
+        </div>
+
+
+        <div class="account_form">
+          <input type="submit" value="Create Account">
+        </div>
+      </form>
+</body>
+
+</html>

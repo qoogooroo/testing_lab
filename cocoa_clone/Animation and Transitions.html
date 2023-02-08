@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS practice</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    @keyframes superCoinFlip {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg) translateX(-500px);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+    
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 50%;
+    animation: superCoinFlip 3s cubic-bezier(0.520, -0.600, 0.330, 0.935);
+}
+  </style>
+
+</head>
+
+<body>
+
+    <img src="img source/먹을만하네요.png">
+    <span>awefwef</span>
+
+</body>
+
+</html>

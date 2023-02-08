@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS practice</title>
+  <style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    height: 100vh;
+    background-color: tomato;
+  }
+div{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-direction: column;
+}
+.child {
+    border: 4px;
+    border-color: white;
+    background-color: teal;
+}
+.one {
+    height: 500px;
+    width: 500px;
+    background-color: wheat;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+}
+.two {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+}
+.three {
+    height: 100px;
+    width: 350px;
+    border-style: dashed;
+}
+
+  </style>
+</head>
+
+<body class = "back-ground">
+  
+  <div class = "one">
+    <div class = "child two"></div>
+    <div class = "child three"></div>
+    <div class = "child two"></div>
+  </div>
+
+  
+
+</body>
+
+</html>
